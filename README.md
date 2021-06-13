@@ -14,7 +14,7 @@ Run notebook: Preprocessing.ipynb
 
 Notebook: Original_Network.ipynb
 
-# Enhance deep feature: Reduce number of conv3d and filter,  add more fully connected layers: ACC 86.5%
+# Enhance deep feature: Reduce number of conv3d and filter,  add more fully connected layers: ACC 86.25%
 
 Notebook: Enhance_Deep_Feature.ipynb
 
@@ -43,6 +43,34 @@ Notebook: ConvLSTM2D
 ACC: 74 val set
 
 Best weight: https://drive.google.com/file/d/1vlA83dcw-gh59SyuqD6_UpmDL0K-FcW_/view?usp=sharing
+
+## Validation
+
+To validation our code, you need to download val.zip and unzip.
+
+Download which ever above model you want.
+
+Using Validation.ipynb notebook.
+
+Change the path to model file (.h5) and val folder.
+
+If you use Colab, you can connect to Google drive and unzip val.zip to drive.
+
+## Demo
+
+Demo Video: https://drive.google.com/file/d/19o42acYtCl6Olo6-mq_nZJ8-Y4tYcxPd/view?usp=sharing
+
+Notebook: Demo.ipynb
+
+Download which ever above model you want.
+
+Download the input video here: https://drive.google.com/file/d/19qW30RlQ2vGWUzoQk621ePYZ_YRrZjMK/view?usp=sharing
+
+Source of video: https://www.youtube.com/watch?v=rDpY91c1ju8
+
+Change the path of model and video input path notebook.
+
+
 
 
 
